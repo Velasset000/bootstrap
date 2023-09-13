@@ -1,0 +1,60 @@
+@use 'vars';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#navContainer {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+#leftNav {
+    padding: 18px;
+}
+#navbarSupportedContent ul li {
+    padding-left: 40px;
+}
+#navbarSupportedContent {
+    flex-wrap: wrap-reverse;
+}
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown button{
+    padding: 8px 13px;
+    margin-left: 10px;
+    border-radius: 100%;
+    border: 1px solid lightgrey;
+}
+.notificationContainer {
+    display: flex;
+}
+.user {
+    background-color: rgb(244, 185, 191);
+    padding: 8px 15px;
+    border-radius: 100%;
+}
+.usercontainer {
+    display: flex;
+}
+#rightnavcontainer {
+    margin-right: 450px;
+}
+#rightnavcontainer div {
+    margin: auto 25%;
+}
+.searchcontainer {
+    display: flex;
+    background-color: #22252A;
+    color: white;
+}
+.moreinfocontainer {
+    display: flex;
+    background-color: #22252A;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+}
